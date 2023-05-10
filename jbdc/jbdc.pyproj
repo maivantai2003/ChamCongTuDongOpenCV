@@ -1,0 +1,206 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>1241cc2c-0bd9-4b66-b270-46e610ad36a8</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>BTUAN4_2\BtAdd.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>jbdc</Name>
+    <RootNamespace>jbdc</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.10</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BTPYTHON\bai1.py" />
+    <Compile Include="BTPYTHON\bai2.py" />
+    <Compile Include="BTPYTHON\bai4.py" />
+    <Compile Include="BTPYTHON\BT1.py" />
+    <Compile Include="BTPYTHON\BT10b.py" />
+    <Compile Include="BTPYTHON\BT2.py" />
+    <Compile Include="BTPYTHON\BT1b.py" />
+    <Compile Include="BTPYTHON\BT2b.py" />
+    <Compile Include="BTPYTHON\BT3b.py" />
+    <Compile Include="BTPYTHON\BT4b.py" />
+    <Compile Include="BTPYTHON\BT5b.py" />
+    <Compile Include="BTPYTHON\BT6b.py" />
+    <Compile Include="BTPYTHON\BT7b.py" />
+    <Compile Include="BTPYTHON\BT8b.py" />
+    <Compile Include="BTPYTHON\bai3.py" />
+    <Compile Include="BTPYTHON\BT9b.py" />
+    <Compile Include="BTUAN3\b1.py" />
+    <Compile Include="BTUAN3\b2.py" />
+    <Compile Include="BTUAN3\bai1B.py" />
+    <Compile Include="BTUAN3\bai2B.py" />
+    <Compile Include="BTUAN3\bai3B.py" />
+    <Compile Include="BTUAN3\bai4B.py" />
+    <Compile Include="BTUAN3\bai5B.py" />
+    <Compile Include="BTUAN3\bai6B.py" />
+    <Compile Include="BTUAN3\bai7B.py" />
+    <Compile Include="BTUAN4\1B.py" />
+    <Compile Include="BTUAN4\2B.py" />
+    <Compile Include="BTUAN4\3B.py" />
+    <Compile Include="BTUAN4\4B.py" />
+    <Compile Include="BTUAN4\5B.py" />
+    <Compile Include="BTUAN4\6B.py" />
+    <Compile Include="BTUAN4\bai1.py" />
+    <Compile Include="BTUAN4\bai2.py" />
+    <Compile Include="BTUAN4_2\B.py" />
+    <Compile Include="BTUAN4_2\b2A.py" />
+    <Compile Include="BTUAN4_2\b3Apy.py" />
+    <Compile Include="BTUAN4_2\BB.py" />
+    <Compile Include="BTUAN4_2\BtAdd.py" />
+    <Compile Include="BTUAN4_2\DeGiuaKi.py" />
+    <Compile Include="BTUAN5\1B.py" />
+    <Compile Include="BTUAN5\1A.py" />
+    <Compile Include="BTUAN5\2A.py" />
+    <Compile Include="BTUAN5\2B.py" />
+    <Compile Include="BTUAN5\3B.py" />
+    <Compile Include="BTUAN5\4B.py" />
+    <Compile Include="BTUAN5\5B.py" />
+    <Compile Include="BTUAN6\1B.py" />
+    <Compile Include="BTUAN6\2B.py" />
+    <Compile Include="BTUAN6\3B.py" />
+    <Compile Include="BTUAN6\b1.py" />
+    <Compile Include="BTUAN6\b2.py" />
+    <Compile Include="BTUAN6\b3.py" />
+    <Compile Include="BTUAN6\b4.py" />
+    <Compile Include="jbdc.py" />
+    <Compile Include="ListTupSetDict\Demo.py" />
+    <Compile Include="NHANDIEN _Test\App.py" />
+    <Compile Include="NHANDIEN _Test\Button.py" />
+    <Compile Include="NHANDIEN _Test\ConnectDB.py" />
+    <Compile Include="NHANDIEN _Test\Database.py" />
+    <Compile Include="NHANDIEN _Test\FormLogin.py" />
+    <Compile Include="NHANDIEN _Test\GUI.py" />
+    <Compile Include="NHANDIEN _Test\Home.py" />
+    <Compile Include="NHANDIEN _Test\Login.py" />
+    <Compile Include="NHANDIEN _Test\Main.py" />
+    <Compile Include="NHANDIEN _Test\MyNoteBook.py" />
+    <Compile Include="NHANDIEN _Test\NhanVien.py" />
+    <Compile Include="NHANDIEN _Test\opencv1.py" />
+    <Compile Include="NHANDIEN _Test\opencv2.py" />
+    <Compile Include="NHANDIEN _Test\opencv3.py" />
+    <Compile Include="NHANDIEN _Test\Staff.py" />
+    <Compile Include="NHANDIEN _Test\ThongKe.py" />
+    <Compile Include="NHANDIEN\App.py" />
+    <Compile Include="NHANDIEN\Button.py" />
+    <Compile Include="NHANDIEN\Database.py" />
+    <Compile Include="NHANDIEN\FormLogin.py" />
+    <Compile Include="NHANDIEN\GUI.py" />
+    <Compile Include="NHANDIEN\Home.py" />
+    <Compile Include="NHANDIEN\Login.py" />
+    <Compile Include="NHANDIEN\Main.py" />
+    <Compile Include="NHANDIEN\MyNoteBook.py" />
+    <Compile Include="NHANDIEN\opencv1.py" />
+    <Compile Include="NHANDIEN\opencv2.py" />
+    <Compile Include="NHANDIEN\opencv3.py" />
+    <Compile Include="NHANDIEN\Staff.py" />
+    <Compile Include="NHANDIEN\ThongKe.py" />
+    <Compile Include="NUMPY\b1.py" />
+    <Compile Include="OPENCV\BITOPENCV.py" />
+    <Compile Include="OPENCV\Camera.py" />
+    <Compile Include="OPENCV\line.py" />
+    <Compile Include="OPENCV\Mouse.py" />
+    <Compile Include="OPENCV\move.py" />
+    <Compile Include="OPENCV\moveImg.py" />
+    <Compile Include="OPENCV\pixel.py" />
+    <Compile Include="OPENCV\Project1.py" />
+    <Compile Include="OPENCV\Project2.py" />
+    <Compile Include="OPENCV\Project3.py" />
+    <Compile Include="OPENCV\Project3_continue.py" />
+    <Compile Include="OPENCV\Project3_continue2.py" />
+    <Compile Include="NHANDIEN\ConnectDB.py" />
+    <Compile Include="NHANDIEN\NhanVien.py" />
+    <Compile Include="Project\demoopencv.py" />
+    <Compile Include="PYJDBC\jdbc1.py" />
+    <Compile Include="PYOOP\b1.py" />
+    <Compile Include="PYOOP\Example1.py" />
+    <Compile Include="PYOOP\jdbc2.py" />
+    <Compile Include="Tkinter\Connect.py" />
+    <Compile Include="Tkinter\database.py" />
+    <Compile Include="Tkinter\example.py" />
+    <Compile Include="Tkinter\exampleEvent.py" />
+    <Compile Include="Tkinter\exampleTable.py" />
+    <Compile Include="Tkinter\exampleTable2.py" />
+    <Compile Include="Tkinter\exampleTable3.py" />
+    <Compile Include="Tkinter\exampleTkinter1.py" />
+    <Compile Include="Tkinter\exampleTkinter2.py" />
+    <Compile Include="Tkinter\exampleTkinter3.py" />
+    <Compile Include="Tkinter\exampleTkinter4.py" />
+    <Compile Include="Tkinter\NhanVien.py" />
+    <Compile Include="Tkinter\ReadCSV.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.10" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BTPYTHON\" />
+    <Folder Include="BTUAN3\" />
+    <Folder Include="FACE_RECOGNIZE\" />
+    <Folder Include="BTUAN4\" />
+    <Folder Include="ListTupSetDict\" />
+    <Folder Include="BTUAN4_2\" />
+    <Folder Include="BTUAN5\" />
+    <Folder Include="BTUAN6\" />
+    <Folder Include="NHANDIEN _Test\image\" />
+    <Folder Include="NHANDIEN\image\" />
+    <Folder Include="NUMPY\" />
+    <Folder Include="NHANDIEN _Test\" />
+    <Folder Include="Tkinter\" />
+    <Folder Include="NHANDIEN\" />
+    <Folder Include="trainer\" />
+    <Folder Include="Project\" />
+    <Folder Include="PYOOP\" />
+    <Folder Include="PYJDBC\" />
+    <Folder Include="OPENCV\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ListTupSetDict\text.txt" />
+    <Content Include="NHANDIEN _Test\image\add-user.png" />
+    <Content Include="NHANDIEN _Test\image\bar-chart.png" />
+    <Content Include="NHANDIEN _Test\image\excel.png" />
+    <Content Include="NHANDIEN _Test\image\funnel.png" />
+    <Content Include="NHANDIEN _Test\image\left %281%29.png" />
+    <Content Include="NHANDIEN _Test\image\left-arrow.png" />
+    <Content Include="NHANDIEN _Test\image\left.png" />
+    <Content Include="NHANDIEN _Test\image\logo.jpg" />
+    <Content Include="NHANDIEN _Test\image\scan.png" />
+    <Content Include="NHANDIEN _Test\image\search.png" />
+    <Content Include="NHANDIEN _Test\image\time.png" />
+    <Content Include="NHANDIEN _Test\image\user.png" />
+    <Content Include="NHANDIEN\image\add-user.png" />
+    <Content Include="NHANDIEN\image\bar-chart.png" />
+    <Content Include="NHANDIEN\image\excel.png" />
+    <Content Include="NHANDIEN\image\funnel.png" />
+    <Content Include="NHANDIEN\image\left %281%29.png" />
+    <Content Include="NHANDIEN\image\left-arrow.png" />
+    <Content Include="NHANDIEN\image\left.png" />
+    <Content Include="NHANDIEN\image\logo.jpg" />
+    <Content Include="NHANDIEN\image\scan.png" />
+    <Content Include="NHANDIEN\image\search.png" />
+    <Content Include="NHANDIEN\image\time.png" />
+    <Content Include="NHANDIEN\image\user.png" />
+    <Content Include="PYOOP\text.txt" />
+    <Content Include="trainer\text.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
